@@ -130,26 +130,33 @@ form button{
         height: 280px;
     }
     form{
-        width: 95%;
+        width: 90%;
         margin: auto;
-        height: 60px;
+        height: 50px;
         border: 2px solid white;
         display: flex;
         align-items: center;
     }
     
     form input{
-        flex: 1;
+        width: 60%;
+        margin: auto;
         height: 100%;
-        font-size: 18px;
-        padding: 5px;
+        font-size: 14px;
+        padding: 2px;
     }
     form button{
-        padding: 0 10px;
+        padding: 0 2px;
+        width: 30%;
         height: 100%;
-        font-size: 18px;
+        font-size: 14px;
+        font-weight: 600;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
     }
     h1{
+        font-size: 22px;
         text-align: center;
         margin: 15px auto 5px;
         font-weight: 600;
